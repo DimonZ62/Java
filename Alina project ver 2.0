@@ -6,7 +6,7 @@ import java.time.Clock;
 public class alina2 {
     //   import java.util.tangible
 
-    public class GlobalMembers {
+   // public class GlobalMembers {
         ///#define _USE_MATH_DEFINES
 
         public static double f(double x) {
@@ -86,12 +86,10 @@ package tangible;
 //
 //	This class is used to replicate the ability to pass arguments by reference in Java.
 //----------------------------------------------------------------------------------------
-    public final class RefObject<T> {
-        public T argValue;
-
-        public RefObject(T refArg) {
-            argValue = refArg;
-        }
-    }
-
-}
+ //   public final class RefObject<T> {
+   //     public T argValue;
+//
+  //      public RefObject(T refArg) {
+    //        argValue = refArg;
+//        }
+//    }
